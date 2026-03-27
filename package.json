@@ -1,0 +1,29 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "api-in-node",
+  "keywords": [
+    "api",
+    "node",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/FelipeBarbisan766/API-Node#readme",
+  "bugs": {
+    "url": "https://github.com/FelipeBarbisan766/API-Node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeBarbisan766/API-Node.git"
+  },
+  "license": "ISC",
+  "author": "Felipe",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0"
+  }
+}

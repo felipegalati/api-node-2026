@@ -1,0 +1,34 @@
+@host = http://
+@dominio = localhost
+@port = :3500
+@endpoint = /users
+@apiurl = {{host}}{{dominio}}{{port}}{{endpoint}}
+@ContentType = application/json; charset=UTF-8
+
+GET {{apiurl}}
+
+###
+
+GET {{apiurl}}/2
+
+###
+
+POST {{apiurl}}
+Content-Type: {{ContentType}}
+ 
+ {
+    "id": 4,
+    "login": "Manoel"
+  }
+###
+
+PUT {{apiurl}}/4
+Content-Type: {{ContentType}}
+ 
+ {
+    "id": 4,
+    "login": "Vitor"
+  }
+
+###
+DELETE {{apiurl}}/4
