@@ -1,14 +1,15 @@
-###For run This Project
+# API REST em Node - Aula Multiplataforma Carlão
+
+### Rodar o projeto
 ```bash
 npm run dev 
 ```
-###For start new Projects
+### Configurar Novo Projeto
 ```bash
 npm init -y
 npm install express
 ```
-###For run Project
+### Instalar dependências
 ```bash
-node index.js
-node --watch index.js
+npm install
 ```
