@@ -12,23 +12,4 @@ GET {{apiurl}}
 GET {{apiurl}}/2
 
 ###
-
-POST {{apiurl}}
-Content-Type: {{ContentType}}
- 
- {
-    "id": 4,
-    "login": "Manoel"
-  }
-###
-
-PUT {{apiurl}}/4
-Content-Type: {{ContentType}}
- 
- {
-    "id": 4,
-    "login": "Vitor"
-  }
-
-###
 DELETE {{apiurl}}/4
